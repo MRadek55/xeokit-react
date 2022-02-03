@@ -20,11 +20,11 @@
   "author": "BIM SPOT GmbH",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@babel/core": "^7.4.5",
+    "@babel/core": "^7.17.0",
     "@babel/plugin-syntax-jsx": "^7.16.7",
-    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-env": "^7.16.11",
     "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.6",
+    "babel-loader": "^8.2.3",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^5.1.0",
@@ -40,9 +40,9 @@
     "react": "^16.8.6"
   },
   "dependencies": {
-    "xeokit-sdk": "github:xeokit/xeokit-sdk",
     "lodash.difference": "^4.5.0",
-    "prop-types": "^15.7.2"
+    "prop-types": "^15.7.2",
+    "xeokit-sdk": "github:xeokit/xeokit-sdk"
   },
   "files": [
     "/build"
