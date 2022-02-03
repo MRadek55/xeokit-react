@@ -18,5 +18,6 @@ module.exports = {
       },
     ],
   },
+  options: { presets: ['@babel/env','@babel/preset-react'] },
   externals: [{ react: 'commonjs react' }, /^xeokit-sdk\/.+$/],
 };
